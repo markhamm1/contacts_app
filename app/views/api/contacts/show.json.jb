@@ -4,5 +4,6 @@
   last_name: @contact.last_name,
   email: @contact.email,
   phone_number: @contact.phone_number,
-  user_id: @contact.user_id
+  user_id: @contact.user_id,
+  # groups: contact.groups.pluck(:name)
 }
